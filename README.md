@@ -8,7 +8,7 @@ The notebook uses the Maximum Mean Discrepancy (MMD) metric to measure the conve
 
 * **Asymmetric Bottlenecks:** Tests convergence for independent layer growth by comparing symmetric networks ($h_1 = h_2 = n$), slow bottlenecks ($h_1 = \lfloor\sqrt{n/5}\rfloor$, $h_2 = n^2$), and exponential growths ($h_1 = n$, $h_2 = \lfloor e^{n/5}\rfloor$).
 * **Convergence Rates:** Quantifies the speed of convergence as a function of the network width scaling parameter $\alpha$, where $h(n) = n^\alpha$.
-* **Infinite-Variance Priors:** Demonstrates the failure of the Central Limit Theorem (CLT) when using non-Gaussian weight distributions (Cauchy, symmetric stable, and Student-$t(2)$).
+* **Infinite-Variance Priors:** Demonstrates the failure of the Central Limit Theorem (CLT) when using non-Gaussian weight distributions (Cauchy, symmetric stable, and Student-t(2)).
 * **Linear Envelope Property (LEP) Violations:** Analyzes the divergence of the network's variance when activation functions strictly violate the LEP condition (testing $u^2$, $u^3$, and $e^{u/4}$).
 
 ## Requirements
